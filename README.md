@@ -3,9 +3,9 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![semver](https://img.shields.io/badge/semver-2.0.0-blue)](https://semver.org/spec/v2.0.0.html)
 
-A simple class which lets you log a code comment in the style of Behavior-Driven Development (BDD).
+A simple class which lets you log a code comment in the style of Behavior-Driven Development (BDD) while writing tests.
 
-The idea is to replace comments with a self-logging comments. In other words, instead of writing:
+The idea is to replace test method comments with a self-logging comments. In other words, instead of writing:
 
 ```
 // GIVEN a string
@@ -23,6 +23,13 @@ that seems to me more readable then a logging instruction like:
 
 ```
 LOGGER.debug("GIVEN a string");
+String aString = new String("aString");
+```
+
+or like:
+
+```
+System.out.println("GIVEN a string");
 String aString = new String("aString");
 ```
 
