@@ -1,4 +1,7 @@
-# Self-Logging Comments [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [SemVer](https://semver.org/) version observance: ![semver](https://img.shields.io/badge/semver-2.0.0-blue)
+# Self-Logging Comments
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![semver](https://img.shields.io/badge/semver-2.0.0-blue)](https://semver.org/)
 
 A simple class which lets you log a code comment in the style of Behavior-Driven Development (BDD).
 
