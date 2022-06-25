@@ -53,6 +53,9 @@ which produces a log like:
 11:29:01 [main] DEBUG com.taringamberini...Test -      THEN it must be uppercased
 ```
 
+
+### Adding a scenario
+
 If you like you can add a scenario too:
 
 ```
@@ -78,6 +81,9 @@ which produces a log like:
 11:29:01 [main] DEBUG com.taringamberini...Test -      WHEN you convert it to uppercase
 11:29:01 [main] DEBUG com.taringamberini...Test -      THEN it must be uppercased
 ```
+
+
+### Adding the method name
 
 If you like you can add the method name too:
 
@@ -111,5 +117,5 @@ which produces a log like:
 
 You can localize in your language the words `GIVEN`, `WHEN`, `THEN`, etc ... , implementing a self-logging commenter for your language. At the moment, you can find:
 
-* `SelfLoggingCommenter_en` in english
-* `SelfLoggingCommenter_it` in italiano
+* English: `SelfLoggingCommenter_en`
+* Italiano: `SelfLoggingCommenter_it`
