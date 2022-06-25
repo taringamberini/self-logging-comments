@@ -36,7 +36,7 @@ String aString = new String("aString");
 
 ## Getting started
 
-I find handy instantiating a self-logging commenter giving it a name which make easier reading the test. Usually I choose the name `__` (a double underscore):
+When I write a test method, I find handy instantiating a self-logging commenter giving it a name which make easier reading the test. Usually I choose the name `__` (a double underscore):
 
 ```
 SelfLoggingCommenter_en __ = new SelfLoggingCommenter_en(LOGGER);
