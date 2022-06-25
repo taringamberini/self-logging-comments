@@ -8,7 +8,9 @@
     <artifactId>self-logging-comments</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
+    <name>${project.groupId}:${project.artifactId}</name>
     <description>A simple class which lets you log a code comment in the style of Behavior-Driven Development (BDD).</description>
+    <url>https://github.com/taringamberini/self-logging-comments</url>
 
     <inceptionYear>2018</inceptionYear>
     <licenses>
@@ -24,6 +26,7 @@
         <developer>
             <id>taringamberini</id>
             <name>Tarin Gamberini</name>
+            <organizationUrl>https://www.taringamberini.com/</organizationUrl>
             <timezone>+1</timezone>
         </developer>
     </developers>
@@ -35,6 +38,7 @@
     </properties>
 
     <scm>
+        <connection>scm:git:git://github.com/taringamberini/self-logging-comments.git</connection>
         <url>https://github.com/taringamberini/self-logging-comments.git</url>
     </scm>
     <issueManagement>
