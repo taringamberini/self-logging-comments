@@ -61,9 +61,9 @@ which produces a log like:
 ```
 
 
-### Adding a scenario
+### Logging a scenario
 
-If you like you can add a scenario too:
+If you like you may log a scenario too:
 
 ```
 SelfLoggingCommenter_en __ = new SelfLoggingCommenter_en(LOGGER).
@@ -90,9 +90,9 @@ which produces a log like:
 ```
 
 
-### Adding the method name
+### Logging the tested method name
 
-If you like you can add the method name too:
+By using the appropriate constructor, which accepts the tested method name as argument, you may log the tested method name too:
 
 ```
 SelfLoggingCommenter_en __ = new SelfLoggingCommenter_en(LOGGER, testInfo.getDisplayName()).
